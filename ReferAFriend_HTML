@@ -1,0 +1,17 @@
+<div class="refer_friend_container">
+  <h3>Tresse Friends are the Best Friends ! </h3>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  </div>
+<div class="login-holder refer_friend_container">&nbsp;</div><span class="current-service-title">Refer a Friend</span>
+<p id="error_trans" style="color:red;">&nbsp;</p>
+<fieldset>
+  <div class="holder mb15">
+    <input id="name" name="name" placeholder="Full Name" class="form-control field50" type="text" /><span id="error_signup_name" class="errors"></span></div>
+  <div class="holder mb15">
+    <input id="email" name="email" placeholder="Email address" class="form-control field50" type="text" /><span id="error_signup_email" class="errors"></span></div>
+<span id="error_signup_cpassword2" class="errors" style="display:block;"></span><span id="error_signup_cpassword1" class="errors" style="display:block;"></span>
+  <input name="user_referred_by" id="user_referred_by" value="" type="hidden" />
+  <input id="YII_CSRF_TOKEN" name="YII_CSRF_TOKEN" value="5dc51fff822304e453a38baae3f45f133125fbcd" type="hidden" />
+  <div class="text-left mb15">
+    <button type="button" class="btn style-action-btn" onclick="return validateReferFriend();">Submit</button><span id="show_loader3"></span></div></fieldset>
